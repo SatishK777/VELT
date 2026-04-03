@@ -4,7 +4,8 @@ import { useEffect, useRef } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import CanvasScene from '@/components/CanvasScene'
 import SurveillanceGrid from '@/components/SurveillanceGrid'
-import HologramVest from '@/components/HologramVest'
+import HolographicCarousel from '@/components/HolographicCarousel'
+import NeuralInterfaceSection from '@/components/NeuralInterfaceSection'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
@@ -67,7 +68,7 @@ export default function Home() {
           {
             y: 0, opacity: 1, clipPath: 'inset(0% 0 0 0)', duration: 0.8, ease: 'power4.out', scrollTrigger: {
               trigger: el,
-              start: 'top 85%'
+              start: 'top 98%'
             }
           }
         )
@@ -216,8 +217,8 @@ export default function Home() {
       {/* Horizontal Archive Native Scroll Sequence */}
       <HorizontalLookbook />
 
-      {/* Cybernetic Hologram Display */}
-      <HologramVest />
+      <HolographicCarousel />
+      <NeuralInterfaceSection />
 
       {/* Slow massive marquee */}
       <section className="relative h-48 flex items-center bg-black overflow-hidden z-20 border-b border-white/20 text-white font-heading font-black text-9xl whitespace-nowrap">

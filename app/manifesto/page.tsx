@@ -16,7 +16,7 @@ export default function ManifestoPage() {
           <p className="font-mono text-xl md:text-3xl font-bold max-w-4xl mx-auto leading-[1.8] border-t-8 border-black pt-16 tracking-wide">
             VΞLT WAS FORGED IN THE STATIC BETWEEN THE HIGH-RISE AND THE GUTTER. WE ENGINEER HEAVY-DUTY ARCHITECTURE FOR THE DIGITAL ERA. NO FAST FASHION. ONLY PERMANENT HARDWARE AND UNCOMPROMISING AESTHETICS.
           </p>
-          <div className="mt-16 animate-pulse font-heading font-black text-4xl">/// DO NOT COMPLY.</div>
+          <div className="mt-16 animate-pulse font-heading font-black text-4xl">{`/// DO NOT COMPLY.`}</div>
         </div>
       </section>
     </main>

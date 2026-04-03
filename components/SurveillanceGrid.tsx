@@ -2,7 +2,6 @@
 
 import { useState, useRef, useEffect } from 'react'
 import { motion, useMotionTemplate, useSpring } from 'framer-motion'
-import Image from 'next/image'
 
 export default function SurveillanceGrid() {
   const containerRef = useRef<HTMLDivElement>(null)

@@ -35,7 +35,7 @@ export default function SupportPage() {
           
           <div className="text-center z-10 bg-black p-12 border-4 border-accent-volt shadow-[0_0_50px_rgba(204,255,0,0.2)]">
             <div className="text-accent-volt mb-8 block font-black text-8xl animate-pulse">
-               //
+               {`//`}
             </div>
             <p className="font-mono text-white tracking-[0.5em] text-2xl font-bold">NODE_SECURE</p>
             <p className="font-mono text-accent-volt/50 text-sm mt-4 tracking-widest">AWAITING INPUT...</p>

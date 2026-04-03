@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Navbar from '@/components/Navbar'
 
 export default function InitiatePage() {
@@ -67,7 +67,7 @@ export default function InitiatePage() {
               </div>
             )}
             <div className="mt-8 text-xs text-white/20 uppercase tracking-widest">
-              [SYSTEM] Press INT (Enter) to execute directive. Hint: 'VELT'
+              [SYSTEM] Press INT (Enter) to execute directive. Hint: &apos;VELT&apos;
             </div>
           </div>
         </div>
